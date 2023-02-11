@@ -1,5 +1,51 @@
-.current {
-  color: green;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+body {
+  background-color: #121212;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+.nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #696969;
+  color: black;
+}
+
+.nav a.current {
+  background-color: #006900;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: #000069;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #696969;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
